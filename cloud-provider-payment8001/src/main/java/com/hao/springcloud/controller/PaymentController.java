@@ -35,7 +35,7 @@ public class PaymentController {
         if(payment != null){
             return new CommonResult(200,"查询成功",payment);
         }else{
-            return new CommonResult(500,"查询失败",null);
+            return new CommonResult(300,"查询失败",null);
         }
     }
 }
