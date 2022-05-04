@@ -21,6 +21,7 @@ public class PaymentController {
         log.info("*********插入结果：" + i);
         log.info("*********插入结果：" + i);
         log.info("*********mster test：" + i);
+        log.info("*********host-fix test：" + i);
 
         if(i > 0){
             return new CommonResult(200,"插入数据库成功",i);
