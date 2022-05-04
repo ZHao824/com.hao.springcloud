@@ -19,6 +19,7 @@ public class PaymentController {
     public CommonResult create(Payment payment){
         int i = paymentService.create(payment);
         log.info("*********插入结果：" + i);
+        log.info("*********插入结果：" + i);
 
         if(i > 0){
             return new CommonResult(200,"插入数据库成功",i);
